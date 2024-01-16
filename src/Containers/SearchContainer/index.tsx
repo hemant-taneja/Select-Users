@@ -135,7 +135,7 @@ export const SearchContainer: React.FC<SearchContainerProps> = ({
           />
         )}
 
-        {isOpen && (
+        {isOpen && selectedUsers?.length !== users?.length && (
           <div className="absolute">
             <Dropdown
               search={search}

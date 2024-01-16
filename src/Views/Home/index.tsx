@@ -29,7 +29,7 @@ export const Home = () => {
 
   return (
     <div className="flex flex-col items-center gap-10 px-20 py-30">
-      <h1 className="color text-sky-500 text-3xl font-semibold	">Pick Users</h1>
+      <h1 className="color text-sky-500 text-3xl font-semibold">Pick Users</h1>
 
       <SearchContainer users={users} loading={loading} error={error} />
     </div>
